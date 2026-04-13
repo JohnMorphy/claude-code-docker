@@ -1,0 +1,9 @@
+services:
+  claude-dev:
+    build: .
+    ports:
+      - "2222:22"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./projects:/root/projects
+    restart: unless-stopped
