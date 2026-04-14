@@ -37,7 +37,7 @@ Open Visual Studio Code and configure the remote connection:
 3. Add the following SSH host configuration:
 
 ```
-ssh root@localhost -p 2222
+ssh dev@localhost -p 2222
 ```
 Then select the new SSH host from the Remote Explorer panel and connect.
 
